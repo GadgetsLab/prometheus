@@ -5,6 +5,7 @@ Who we are Section
 */
 .wwa-cont_image
 {
+	margin: 10px 0px 50px 0;
 	text-align: center;
 }
 .wwa-cont_image img
@@ -19,6 +20,10 @@ Who we are Section
 .wwa-cont_text
 {
 	text-align: center;
+}
+.wwa-cont_text-title
+{
+	font-size: 20px;
 }
 /*
 -----------------------------------------------
