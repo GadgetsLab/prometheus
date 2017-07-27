@@ -1,0 +1,16 @@
+.nav-bar-container
+{
+	background-color: transparent;
+}
+
+.nav-bar-container_menu
+{
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+.nav-bar-container_menu-item
+{
+	flex: auto;
+}
