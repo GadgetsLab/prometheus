@@ -2,6 +2,9 @@
 @import url("fonts-style.css");
 @import url("nav-bar-section.css");
 @import url("wwa-section.css");
+@import url("services-section.css");
+@import url("portfolio-section.css");
+@import url("contact-section.css");
 /*Tools ever will place at the end */
 @import url("tools.css");
 
@@ -9,4 +12,35 @@ body
 {
 	font-family: "OpenSans-Regular" !important;
 }
+
+h1
+{
+	color: #FF662B;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 2em;
+}
+
+h3
+{
+	color: #635959;
+	font-weight: 600;
+	margin-bottom: 2.5em;
+}
+.top-title
+{
+	color: gray;
+	font-weight: 100;
+}
+
+/*General containers styles*/
+.portfolio-section
+{
+	margin-bottom: 5em;
+}
+.wwa-section, .service-section, .contact-section
+{
+	margin-bottom: 3em;
+}
+/*------------------------------------------*/
 

@@ -1,0 +1,10 @@
+/*Contact section*/
+
+.contact-section input, textarea
+{
+	border-radius: 2px;
+	border: 1px solid #D5D5D5;
+	padding: 10px;
+}
+
+/*----------------------------------------*/

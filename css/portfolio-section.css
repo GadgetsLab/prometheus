@@ -1,0 +1,28 @@
+/*Portfolio section*/
+.titulo
+{
+	padding: 10px;
+}
+.titulo:hover
+{
+	background-color:#FFCD0D; 
+	color: #FFF;
+}
+.navigator
+{
+	color: #000;
+	font-weight: 600;
+	padding: 2px 20px;
+}
+.navigator:hover
+{
+	background-color: #FFCD0D;
+	border-radius: 25px;
+	color: #FFF;
+	text-decoration: none;
+}
+.portfolio-section__tags
+{
+	margin-bottom: 1em;
+}
+/*--------------------------------------------*/
