@@ -10,15 +10,17 @@
 
 body
 {
-	font-family: "OpenSans-Regular" !important;
+	font-family: "OpenSans" !important;
 }
 
 h1
 {
 	color: #FF662B;
-	font-size: 25px;
+	font-size: 1.5em;
+	line-height: 35px;
 	font-weight: 600;
 	margin-bottom: 2em;
+	font-family: "OpenSans" !important;
 }
 
 h3
@@ -26,13 +28,20 @@ h3
 	color: #635959;
 	font-weight: 600;
 	margin-bottom: 2.5em;
+	font-family: "OpenSans" !important;
+	font-size: 1.2em;
+
 }
 .top-title
 {
-	color: gray;
 	font-weight: 100;
+	line-height: 10px;
 }
-
+.bottom-title
+{
+	font-size: 1.2em;
+	padding-top: .5em;
+}
 /*General containers styles*/
 .portfolio-section
 {
@@ -42,5 +51,27 @@ h3
 {
 	margin-bottom: 3em;
 }
+.footer-redes
+{
+	background-color: #252525;
+	padding: 3em 0;
+}
+.copyright
+{
+	font-size: .8em;
+	color:#88898B;
+	text-decoration: none;
+}
 /*------------------------------------------*/
-
+#background-video
+{
+	position: absolute; 
+	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: 650px; 
+	z-index: -1000;
+	overflow: hidden
+}

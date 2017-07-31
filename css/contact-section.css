@@ -5,6 +5,28 @@
 	border-radius: 2px;
 	border: 1px solid #D5D5D5;
 	padding: 10px;
+	width: 100%;
+	background-color: #E9E7E7;
+	font-family: "OpenSans" !important;
+	font-weight: 700;
 }
-
+.contact-section p{
+	line-height: 30px;
+}
+.form div{
+	margin: 1em 0;
+}
+.btn-form
+{
+	padding: 2px 40px;
+	background-color: #FFCD0D;
+	border: none;
+	margin-left: 15px;
+	font-family: "OpenSans" !important;
+	font-weight: 700;
+}
+.btn-form:hover
+{
+	background-color: #FFCD0D;
+}
 /*----------------------------------------*/

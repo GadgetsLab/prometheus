@@ -12,6 +12,7 @@ var functions = {
 					transformet.classList.add('ed-item');
 					transformet.classList.add('s-100');
 					transformet.classList.add('l-25');
+					transformet.classList.add('containt-section');	
 					transformet.setAttribute('data-type', $(this).attr('data-type'));
 					transformet.innerHTML = $(this).html();					
 					$("#portfolio-block").append(transformet);

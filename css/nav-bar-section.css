@@ -15,3 +15,15 @@
 {
 	flex: auto;
 }
+
+.nav-bar-container_menu .nav-bar-container_menu-item a{
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+@media (min-width: 750px){
+	.nav-bar-container{
+		min-height: 650px;
+	}
+}

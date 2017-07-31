@@ -12,7 +12,34 @@ Tools Section
 {
 	text-align: center;
 }
-
+.font-color-brown
+{
+	color: #857070 !important;
+}
+.font-color-gray
+{
+	color: #838182 !important;
+}
+.font-weight-thin
+{
+	font-weight: 100;
+}
+.font-weight-300
+{
+	font-weight: 300;
+}
+.font-weight-900
+{
+	font-weight: 900;
+}
+.block-none
+{
+	display: none;
+}
+.block-display
+{
+	display: block;
+}
 /*
 -----------------------------------------------
 Tools End Section

@@ -3,10 +3,33 @@
 {
 	padding: 10px;
 }
-.titulo:hover
+.containt-section
+{
+	background-color: #F7F7F8;
+	cursor: pointer;
+	position: relative;
+}
+.containt-section:hover
 {
 	background-color:#FFCD0D; 
 	color: #FFF;
+}
+.imagen
+{
+	position: relative;
+}
+.velo-yellow
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 0, 0);
+	cursor: pointer;
+	z-index: 1;
+}
+.velo-yellow:hover
+{
+	background: rgba(255, 255, 0, 0.23);
 }
 .navigator
 {
@@ -14,7 +37,7 @@
 	font-weight: 600;
 	padding: 2px 20px;
 }
-.navigator:hover
+.active, .navigator:hover
 {
 	background-color: #FFCD0D;
 	border-radius: 25px;

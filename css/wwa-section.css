@@ -3,6 +3,14 @@
 Who we are Section
 -------------------------------------------------
 */
+.wwa-section
+{
+	background-image: url(../images/bg_gris.svg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 4em 0 10em 0;
+}
 .wwa-cont_image
 {
 	margin: 10px 0px 50px 0;
@@ -21,9 +29,12 @@ Who we are Section
 {
 	text-align: center;
 }
+.wwa-cont_text p
+{
+	line-height: 30px;
+}
 .wwa-cont_text-title
 {
-	font-size: 20px;
 }
 /*
 -----------------------------------------------
