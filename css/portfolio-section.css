@@ -1,4 +1,9 @@
 /*Portfolio section*/
+#portfolio-block
+{
+	position: relative;
+	min-height:338px;
+}
 .titulo
 {
 	padding: 10px;
@@ -7,7 +12,7 @@
 {
 	background-color: #F7F7F8;
 	cursor: pointer;
-	position: relative;
+	position: absolute;
 }
 .containt-section:hover
 {

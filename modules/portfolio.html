@@ -5,6 +5,17 @@
     <title>Prueba Portafolio</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/ed-grid.css">
+    <style>
+		.content-item
+		{
+			position: absolute;
+		}
+		#portfolio-block
+		{
+			position: relative;
+			min-height:319px;
+		}
+	</style>
 </head>
 <body>
     <div class="ed-container">
@@ -19,8 +30,8 @@
            <a href="#" class="navigator" data-option="3">Fotografia</a>
        </div>
     </div>
-    <div id="portfolio-block" class="ed-container no-padding">
-        <div class="ed-item s-100 l-25" data-type="1">
+    <div id="portfolio-block" class="ed-container no-padding" >
+        <div class="ed-item s-100 l-25 content-item" data-type="1">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
@@ -28,7 +39,7 @@
                 <p>01. Video corporativo</p>
             </div>
         </div>
-        <div class="ed-item s-100 l-25" data-type="2">
+        <div class="ed-item s-100 l-25 content-item" data-type="2">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
@@ -36,7 +47,7 @@
                 <p>02. Animacion corporativa</p>
             </div>
         </div>
-        <div class="ed-item s-100 l-25" data-type="3">
+        <div class="ed-item s-100 l-25 content-item" data-type="3">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
@@ -44,7 +55,7 @@
                 <p>03. Fotografia corporativa</p>
             </div>
         </div>
-        <div class="ed-item s-100 l-25" data-type="1">
+        <div class="ed-item s-100 l-25 content-item" data-type="1">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
@@ -52,7 +63,7 @@
                 <p>04. Video corporativo #2</p>
             </div>
         </div>
-        <div class="ed-item s-100 l-25" data-type="2">
+        <div class="ed-item s-100 l-25 content-item" data-type="2">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
@@ -60,7 +71,7 @@
                 <p>05. Animacion corporativa #2</p>
             </div>
         </div>
-        <div class="ed-item s-100 l-25" data-type="3">
+        <div class="ed-item s-100 l-25 content-item" data-type="3">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
@@ -68,25 +79,58 @@
                 <p>06. Fotografia corporativa #2</p>
             </div>
         </div>
-        <div class="ed-item s-100 l-25" data-type="1">
+        <div class="ed-item s-100 l-25 content-item" data-type="1">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
             <div class="titulo">
-                <p>03. Video corporativo #3</p>
+                <p>07. Video corporativo #3</p>
             </div>
         </div>
-        <div class="ed-item s-100 l-25" data-type="2">
+        <div class="ed-item s-100 l-25 content-item" data-type="2">
             <div class="imagen">
                 <img src="http://via.placeholder.com/450x450" alt="">
             </div>
             <div class="titulo">
-                <p>07. Animacion corporativa #3</p>
+                <p>08. Animacion corporativa #3</p>
             </div>
         </div>
     </div>
+<h4>hola</h4>    
     <script src="../js/jquery.js"></script>
-    <script src="../js/functions.js"></script>
-    <script src="../js/template.js"></script>
+    <!--<script src="../js/functions.js"></script>-->
+    <!--<script src="../js/template.js"></script>-->
+    <script>
+		cargaInicial();
+		$(".navigator").on('click', function(e){
+			var con = 0;
+			var top = 0;
+			e.preventDefault();
+			var opc = $(this).attr('data-option');
+			if (opc == 0 ) {
+				cargaInicial();
+			}else{
+				$("#portfolio-block > div").each(function(){
+					console.log(con);
+					if (opc !== $(this).attr('data-type')) {
+						$(this).fadeOut();
+					} else {
+						console.log(con);
+						$(this).css("left", (con*25)+"%");		
+						$(this).css("top", top+"px");
+						$(this).fadeIn();
+						if(con == 4){
+							con = 0;
+							top = 319;
+						}else{
+							con++;
+						}
+					}
+				});
+				$("#portfolio-block").height((top*2));
+			}
+		});
+
+	</script>
 </body>
 </html>

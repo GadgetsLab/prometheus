@@ -1,23 +1,24 @@
 var functions = {
-    filterMenu: function(containtPortfolio, opc){
-		var content = document.createElement('div');
-		$("#portfolio-block").html('');
-		if(opc == 0){
-			$("#portfolio-block").html(containtPortfolio);
-			return true;
+    cargaInicial: function ()
+	{
+		var con = 0;
+		var col = 1;
+		$("#portfolio-block > div").each(function(index){
+		if (index < 4) {
+			$(this).css("left", (con*25)+"%");
 		}
-        containtPortfolio.each(function(){
-			if ($(this).attr('data-type') == opc) {
-					var transformet = document.createElement('div');
-					transformet.classList.add('ed-item');
-					transformet.classList.add('s-100');
-					transformet.classList.add('l-25');
-					transformet.classList.add('containt-section');	
-					transformet.setAttribute('data-type', $(this).attr('data-type'));
-					transformet.innerHTML = $(this).html();					
-					$("#portfolio-block").append(transformet);
-				}
+		if(con == 4){
+			col++;
+			$("#portfolio-block").height((319*col));
+			con =0;
+		}else{
+			con++;
+		}
+		if (index > 3) {
+			$(this).css("left", (con*25)+"%");		
+			$(this).css("top", "338px");		
+		}
+		$(this).fadeIn();
 		});
-		return false;
-    }
+	}
 }

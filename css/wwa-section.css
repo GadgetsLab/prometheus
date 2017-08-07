@@ -8,8 +8,8 @@ Who we are Section
 	background-image: url(../images/bg_gris.svg);
 	background-position: center top;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	padding: 4em 0 10em 0;
+	    background-size: cover;
+    padding: 4em 0 20em 0;
 }
 .wwa-cont_image
 {
@@ -33,8 +33,18 @@ Who we are Section
 {
 	line-height: 30px;
 }
-.wwa-cont_text-title
+
+.fire
 {
+	position: relative;
+	left: -33%;
+	transition: all 1s;
+}
+.way
+{
+	position: relative;
+	right: -33%;
+	transition: all 1s;
 }
 /*
 -----------------------------------------------

@@ -21,7 +21,10 @@
 	text-transform: uppercase;
 	font-weight: normal;
 }
-
+.background-black-transparent
+{
+	background: rgba(0,0,0, .25);
+}
 @media (min-width: 750px){
 	.nav-bar-container{
 		min-height: 650px;

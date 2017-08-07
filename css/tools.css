@@ -12,6 +12,14 @@ Tools Section
 {
 	text-align: center;
 }
+.text-right
+{
+	text-align: right;
+}
+.text-left
+{
+	text-align: left;
+}
 .font-color-brown
 {
 	color: #857070 !important;
@@ -39,6 +47,14 @@ Tools Section
 .block-display
 {
 	display: block;
+}
+.position-fixed
+{
+	position: fixed;
+}
+.overflow-hidden
+{
+	overflow: hidden;
 }
 /*
 -----------------------------------------------

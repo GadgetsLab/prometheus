@@ -2,3 +2,16 @@
 {
 	line-height: 30px;	
 }
+
+.service-section h3
+{
+	position: relative;
+	padding-left: 55px;
+}
+
+.service-section h3 img
+{
+	position: absolute;
+	left: 0;
+    top: -16px;
+}
