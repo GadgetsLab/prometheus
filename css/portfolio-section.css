@@ -54,3 +54,15 @@
 	margin-bottom: 1em;
 }
 /*--------------------------------------------*/
+
+/*Portfolio item*/
+
+	.portfolio_item img{
+	float:left;
+	margin:.5em;
+	}
+	.portfolio_item .portfolio__item-header{
+	color: #FF662B;
+	margin-top:.5em;
+	font-weight: 800;
+	}

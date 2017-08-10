@@ -58,9 +58,13 @@ $(document).ready(function(){
 		$(this).addClass("active");
 	});
 	$(".containt-section").on("click", function(){
-		console.log("hace click");
+		functions.getElementPortfolio($(this).attr("data-name"));
 		$(".modal").fadeIn();
 		$(".veil").fadeIn("slow");
+	});
+		$(".veil").on("click", function(){
+		$(".modal").fadeOut("slow");
+		$(".veil").fadeOut();
 	});
 
 

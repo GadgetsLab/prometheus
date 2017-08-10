@@ -25,6 +25,22 @@ var functions = {
         $('html,body').animate({
             scrollTop: $(id).offset().top
         }, 500);
+	},
+	getElementPortfolio: function(name){
+		$.ajax({
+			url: 'portfolio/' + name,
+			type: 'GET'
+		})
+		.done(function(response) {
+			$(".modal").html(response);
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
+		
 	}
 
 }
