@@ -46,10 +46,19 @@ var functions = {
 		$.ajax({
 			url: 'sendMail.php',
 			type: 'POST',
-			data: {$data}
+			data: $data
 		})
 		.done(function(response) {
-			console.log(response);
+			$.toast({ 
+  				text : response, 
+  				showHideTransition : 'slide',
+  				bgColor : '#FF662B',
+  				textColor : '#fff',       
+  				allowToastClose : false,
+  				hideAfter : 5000,           
+  				textAlign : 'left',       
+  				position : 'bottom-right'
+			});
 		})
 		.fail(function() {
 			console.log("error");

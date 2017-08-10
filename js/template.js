@@ -70,6 +70,7 @@ $(document).ready(function(){
 	$("#form-contact").on('submit', function(e){
 		e.preventDefault();
 		functions.sendMail($(this).serialize());
+		$(this).find("input, textarea").val("");
 	});
 
 });

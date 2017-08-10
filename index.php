@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Prometheus</title>
-	 <link rel="stylesheet" href="css/styles-general.css">
-    <link rel="stylesheet" href="css/ed-grid.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles-general.css">
+	<link rel="stylesheet" href="css/ed-grid.css">
+	<link rel="stylesheet" href="css/jquery.toast.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body>
@@ -229,7 +230,7 @@ Animación 2D | 3D - Cutout - stop motion - whiteBoard - infographics - motion g
 							<input type="text" placeholder="Asunto" name="asunto">
 						</div>
 						<div class="ed-item s-100">
-							<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="mensaje"></textarea>
+							<textarea id="" cols="30" rows="10" placeholder="Mensaje" name="mensaje"></textarea>
 						</div>
 						<div class="ed-tiem s-100">
 							<button class="btn-form" type="submit">Enviar</button>
@@ -256,6 +257,7 @@ Animación 2D | 3D - Cutout - stop motion - whiteBoard - infographics - motion g
 	<div class="veil"></div>
 	<div class="modal"></div>
 	<script src="js/jquery.js"></script>
+	<script src="js/jquery.toast.min.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/template.js"></script>
 </body>
