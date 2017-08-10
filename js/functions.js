@@ -22,7 +22,6 @@ var functions = {
 		});
 	},
 	goElement: function(id){
-		console.log(id);
         $('html,body').animate({
             scrollTop: $(id).offset().top
         }, 500);

@@ -61,3 +61,25 @@ Tools Section
 Tools End Section
 -----------------------------------------------
 */
+
+/*Modal*/
+.veil{
+	background-color: rgba(0,0,0,.9);
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+.modal{
+    background-color: white;
+    display: none;
+    margin: 0 auto;
+    height: 500px;
+    right: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1000px;
+    z-index: 1000;
+}

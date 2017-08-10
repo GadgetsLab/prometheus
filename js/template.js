@@ -10,11 +10,9 @@ $(document).ready(function(){
 				functions.cargaInicial();
 			}else{
 				$("#portfolio-block > div").each(function(){
-					console.log(con);
 					if (opc !== $(this).attr('data-type')) {
 						$(this).fadeOut();
 					} else {
-						console.log(con);
 						$(this).css("left", (con*25)+"%");		
 						$(this).css("top", top+"px");
 						$(this).fadeIn();
@@ -50,13 +48,21 @@ $(document).ready(function(){
 
 	$(".anchor").on("click", function(e){
 		e.preventDefault();
-		console.log("Entrando al click");
 		functions.goElement($(this).attr("href"));
 	});
-	/*$(".containt-section").on('mouseover',function(){
-		$(this).children('div').eq(0).children('div').eq(0).removeClass('block-none').addClass('block-display');
-    });
-	$(".containt-section").mouseout(function(){
-		$(this).children('div').eq(0).children('div').eq(0).addClass('block-none').removeClass('block-display');
-    });*/
+
+	$(".portfolio-section__tags a.navigator").on("click", function(){	
+		$(".portfolio-section__tags a.navigator").each(function(){
+			$(this).removeClass("active");
+		});
+		$(this).addClass("active");
+	});
+	$(".containt-section").on("click", function(){
+		console.log("hace click");
+		$(".modal").fadeIn();
+		$(".veil").fadeIn("slow");
+	});
+
+
+
 });

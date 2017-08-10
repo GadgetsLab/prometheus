@@ -1,6 +1,7 @@
 .nav-bar-container
 {
 	background-color: transparent;
+	position: relative;
 }
 
 .nav-bar-container_menu
