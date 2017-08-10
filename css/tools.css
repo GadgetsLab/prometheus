@@ -75,16 +75,19 @@ Tools End Section
 	left: 0;
 	right: 0;
 	margin: 0 auto;
+	cursor: pointer;
 }
 .modal{
     background-color: white;
     display: none;
     margin: 0 auto;
-    height: 500px;
+    /*height: 500px;*/
     right: 0;
     left: 0;
     position: fixed;
     top: 0;
     width: 1000px;
-    z-index: 1000;
+	z-index: 1000;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 }

@@ -71,8 +71,7 @@ h3
 	right: 0px; 
 	min-width: 100%; 
 	min-height: 100%; 
-	width: auto; 
-	height: 650px; 
+	width: auto;  
 	z-index: -1000;
 	overflow: hidden
 }

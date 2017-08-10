@@ -43,34 +43,34 @@
 			</div>
 			<div class="ed-item s-100 m-1-3 fire">
 				<div class="wwa-cont_image">
-					<img src="http://lorempixel.com/400/200" alt="">
+					<img src="http://via.placeholder.com/200x200" alt="">
 				</div>
 				<div class="wwa-cont_text">
 					<h3 class="wwa-cont_text-title font-color-brown font-weight-900">FUEGO</h3>
 					<p class="font-color-gray font-weight-300">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum earum eveniet tempora recusandae fugit sequi inventore, vero natus esse, dolores, id sit beatae repudiandae provident fuga excepturi. Minima, est, explicabo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur impedit repellendus neque quia quas minima dicta reiciendis provident a, minus voluptas asperiores explicabo itaque, consectetur laborum in distinctio, aut, ex.
+					Profesionales y creativos de la comunicación, la gestión de contenidos y la producción audiovisual. Contamos historias que depuran el saber específico, lo transforman en un lenguaje acorde a las necesidades de los públicos y lo convierten en productos narrativos que sorprenden, cautivan y permanecen en la memoria individual y colectiva. 
 					</p>
 				</div>
 			</div>
 			<div class="ed-item s-100 m-1-3">
 				<div class="wwa-cont_image">
-					<img src="http://lorempixel.com/400/200" alt="">
+					<img src="http://via.placeholder.com/200x200" alt="">
 				</div>
 				<div class="wwa-cont_text">
 					<h3 class="wwa-cont_text-title font-color-brown font-weight-900">CONOCIMIENTO</h3>
 					<p class="font-color-gray font-weight-300">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum explicabo, vel doloribus. Officiis vero cumque deserunt. Veniam dignissimos sunt doloremque eligendi. Repellendus cum perspiciatis impedit, cumque debitis, vero odit quas! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, cum, numquam. Magnam repellat delectus pariatur blanditiis iusto fugiat esse, error ad velit veritatis ipsam quod. Odio vel, magnam laudantium perspiciatis.
+					En Prometheus Films creemos en el trabajo colaborativo con los diferentes actores sociales: gerentes, líderes de proyectos, comunidades, organizaciones, fundaciones, colectivos culturales, entre otros; para hacer del conocimiento una experiencia de apropiación dirigida al bien común. 
 					</p>
 				</div>
 			</div>
 			<div class="ed-item s-100 m-1-3 way">
 				<div class="wwa-cont_image">
-					<img src="http://lorempixel.com/400/200" alt="">
+					<img src="http://via.placeholder.com/200x200" alt="">
 				</div>
 				<div class="wwa-cont_text">
 					<h3 class="wwa-cont_text-title font-color-brown font-weight-900">CAMINO</h3>
 					<p class="font-color-gray font-weight-300">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, libero, porro! Tempore explicabo perferendis veniam sint vero, unde dolore eveniet iusto, dolorum quod nulla corporis voluptate molestias deleniti atque. Iusto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam natus temporibus recusandae eaque sit, enim, dolorem ipsum laudantium illo at quos tempore voluptatibus numquam a fugiat esse, magnam asperiores nobis?
+					Acercamos mundos con las habilidades que tenemos para interpretarlos: el empresarial, el científico, el creativo y el educativo; además de aquellos contextos que implican transformar saberes de alta complejidad en experiencias creativas con una real apropiación social del <conocimiento class=""></conocimiento>
 					</p>
 				</div>
 			</div>
@@ -86,25 +86,26 @@
 			<div class="ed-item s-100 m-50 margin-bottom-3em block-none content-image-w">
 				<h3 class="font-color-brown font-weight-900"><img src="images/icono_video.svg" alt="" width="50" height="50">CONTENIDOS AUDIOVISUALES:</h3>
 				<p class="font-weight-300 font-color-gray">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam harum repellendus voluptas, minima inventore esse tenetur itaque sit quasi ab qui repellat nostrum dolor commodi aspernatur molestiae libero. Aspernatur, ea.
+					Imagen y sonido, dos elementos que hacen parte de nuestro universo sensorial. A través de él: aprendemos, sentimos y nos asombramos. De allí surge la “emoción” que, a través de los sentidos, nos abre las puertas para relacionarnos con el mundo. 
 				</p>
 			</div>
 			<div class="ed-item s-100 m-50 margin-bottom-3em block-none content-image-w">
 				<h3 class="font-color-brown font-weight-900"><img src="images/icono_animacion.svg" alt="" width="50" height="50">ANIMACIÓN:</h3>
 				<p class="font-weight-300 font-color-gray">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id enim alias placeat eaque debitis perspiciatis, magnam aliquid, assumenda ut dolorem architecto aut cum soluta impedit dolores quibusdam recusandae consequatur autem.
+					La vida es movimiento. Cuando los trazos y las figuras se mueven, creamos nuevos mundos, y con ellos, formas innovadoras de hacer llegar mensajes, representar ideas y explicar procesos.
+Animación 2D | 3D - Cutout - stop motion - whiteBoard - infographics - motion graphics - diseño de personajes - storyboard.
 				</p>
 			</div>
 			<div class="ed-item s-100 m-50 margin-bottom-3em block-none content-image-w-2">
 				<h3 class="font-color-brown font-weight-900"><img src="images/icono_fotografia.svg" alt="" width="50" height="50">FOTOGRAFÍA</h3>
 				<p class="font-weight-300 font-color-gray">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus architecto autem facilis ea eius et tenetur quam optio ullam, hic, voluptatibus dicta in. Deserunt nihil sunt perferendis atque pariatur officiis!
+					La humanidad se reconoce en función de la luz, la creatividad, los sueños y el pensamiento nacen a partir de ella. La luz permite cautivar momentos para transformarlos en recuerdos perpetuos y memorables. Una manera de evidenciar procesos, eventos y productos.
 				</p>
 			</div>
 			<div class="ed-item s-100 m-50 margin-bottom-3em block-none content-image-w-2">
 				<h3 class="font-color-brown font-weight-900"><img src="images/icono_consultoria.svg" alt="" width="50" height="50">CONSULTORÍA GESTIÓN DE PROYECTOS</h3>
 				<p class="font-weight-300 font-color-gray">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, porro quis saepe illo deleniti provident odio quaerat, iure ad distinctio autem, excepturi optio ipsa cumque nulla voluptates deserunt nostrum, aspernatur.
+					Intercambiar conocimientos es bastión de la humanidad, desde el mito del titán y el fuego, cada vez es más necesario aprender nuevos saberes y habilidades. Asesoría y consultoría para desarrollo de proyectos audiovisuales de carácter social y proyectos de gestión en comunidades. 
 				</p>
 			</div>
 		</div>
@@ -131,7 +132,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="1" data-name="prueba.html">
 	            <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>01. Video corporativo</p>
@@ -140,7 +141,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="2">
 	            <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>02. Animacion corporativa</p>
@@ -149,7 +150,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="3">
 	            <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>03. Fotografia corporativa</p>
@@ -158,7 +159,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="1">
 	            <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>04. Video corporativo #2</p>
@@ -167,7 +168,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="2">
 	            <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>05. Animacion corporativa #2</p>
@@ -176,7 +177,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="3">
 	            <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>06. Fotografia corporativa #2</p>
@@ -185,7 +186,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="1">
 	            <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>03. Video corporativo #3</p>
@@ -194,7 +195,7 @@
 	        <div class="ed-item s-100 l-25 containt-section" data-type="2">
                 <div class="velo-yellow"></div>
 	            <div class="imagen">
-	                <img src="http://via.placeholder.com/450x450" alt="">
+	                <img src="http://via.placeholder.com/300x300" alt="">
 	            </div>
 	            <div class="titulo">
 	                <p>07. Animacion corporativa #3</p>
@@ -219,19 +220,19 @@
 				<form action="" id="form-contact">
 				<div class="ed-container form"> 
 						<div class="ed-item s-100 m-50">
-							<input type="text" placeholder="Nombre">
+							<input type="text" placeholder="Nombre" name="nombre">
 						</div>
 						<div class="ed-item s-100 m-50">
-							<input type="email" placeholder="Email">
+							<input type="email" placeholder="Email" name="email">
 						</div>
 						<div class="ed-item s-100">
-							<input type="text" placeholder="Asunto">
+							<input type="text" placeholder="Asunto" name="asunto">
 						</div>
 						<div class="ed-item s-100">
-							<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+							<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" name="mensaje"></textarea>
 						</div>
 						<div class="ed-tiem s-100">
-							<button class="btn-form">Enviar</button>
+							<button class="btn-form" type="submit">Enviar</button>
 						</div>
 				</div>
 				</form>

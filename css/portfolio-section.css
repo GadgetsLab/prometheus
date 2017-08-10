@@ -57,12 +57,26 @@
 
 /*Portfolio item*/
 
-	.portfolio_item img{
+.portfolio_item{
+	padding: 2em;
+}
+
+.portfolio_item h3 {
+	margin-bottom: 1em;
+}
+.portfolio_item img{
 	float:left;
-	margin:.5em;
-	}
-	.portfolio_item .portfolio__item-header{
-	color: #FF662B;
+	margin: 0px .5em 0.5em 0px;;
+}
+
+.portfolio_item p {
+	line-height: 33px;
+	font-family: "OpenSans" !important;
+	font-weight: 300;
+	text-align: justify;
+}
+.portfolio_item .portfolio__item-header{
+	color: #FFCD0D;
 	margin-top:.5em;
-	font-weight: 800;
-	}
+	font-weight: bold;
+}

@@ -41,6 +41,22 @@ var functions = {
 			console.log("complete");
 		});
 		
+	},
+	sendMail: function($data) {
+		$.ajax({
+			url: 'sendMail.php',
+			type: 'POST',
+			data: {$data}
+		})
+		.done(function(response) {
+			console.log(response);
+		})
+		.fail(function() {
+			console.log("error");
+		})
+		.always(function() {
+			console.log("complete");
+		});
 	}
 
 }

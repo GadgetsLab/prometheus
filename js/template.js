@@ -67,6 +67,9 @@ $(document).ready(function(){
 		$(".veil").fadeOut();
 	});
 
-
+	$("#form-contact").on('submit', function(e){
+		e.preventDefault();
+		functions.sendMail($(this).serialize());
+	});
 
 });
