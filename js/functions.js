@@ -20,5 +20,12 @@ var functions = {
 		}
 		$(this).fadeIn();
 		});
+	},
+	goElement: function(id){
+		console.log(id);
+        $('html,body').animate({
+            scrollTop: $(id).offset().top
+        }, 500);
 	}
+
 }

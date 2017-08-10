@@ -47,6 +47,12 @@ $(document).ready(function(){
 			$(".content-image-w-2").fadeIn();
 		}
 	});	
+
+	$(".anchor").on("click", function(e){
+		e.preventDefault();
+		console.log("Entrando al click");
+		functions.goElement($(this).attr("href"));
+	});
 	/*$(".containt-section").on('mouseover',function(){
 		$(this).children('div').eq(0).children('div').eq(0).removeClass('block-none').addClass('block-display');
     });
